@@ -111,6 +111,7 @@ namespace RansomwareSimulator
 
         /// <summary>
         /// Recursive scan of a directory tree, skip unaccessible files
+        /// Base method from: http://stackoverflow.com/a/12332773
         /// </summary>
         /// <param name="rootDirectory">The root directory to scan from</param>
         /// <returns>A sequence of paths accessible to the CurrentUser</returns>
@@ -398,6 +399,7 @@ namespace RansomwareSimulator
 
         /// <summary>
         /// Transform byte to KB, MB etc..
+        /// Base method from: http://stackoverflow.com/a/4975942
         /// </summary>
         /// <param name="byteCount">A size in byte</param>
         /// <returns>A string representing a file size</returns>
